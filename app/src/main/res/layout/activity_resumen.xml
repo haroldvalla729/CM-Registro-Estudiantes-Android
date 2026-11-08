@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_resumen"
+    android:fillViewport="true"
+    tools:context=".ResumenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_resumen"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/azul_oscuro"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitulo_resumen"
+            android:textSize="15sp"
+            android:textColor="@color/texto_gris_alt"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"/>
+
+        <!-- Datos del estudiante -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/fondo_tarjeta"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_nombre"
+                android:textStyle="bold"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/texto_oscuro"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_carrera"
+                android:textStyle="bold"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tvCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/texto_oscuro"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_modalidad"
+                android:textStyle="bold"
+                android:textColor="@color/azul_oscuro"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tvModalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/texto_oscuro"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

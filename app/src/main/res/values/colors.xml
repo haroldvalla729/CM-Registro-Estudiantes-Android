@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="fondo_app">#F8F9FA</color>
+<color name="fondo_resumen">#F3F5F9</color>
+<color name="fondo_tarjeta">#FFFFFF</color>
+<color name="azul_primario">#0D47A1</color>
+<color name="azul_oscuro">#17365D</color>
+<color name="gris_texto">#616161</color>
+<color name="texto_gris_alt">#666666</color>
+<color name="negro_texto">#212121</color>
+<color name="texto_oscuro">#333333</color>
+<color name="gris_oscuro">#37474F</color>
+<color name="blanco">#FFFFFF</color>
+</resources>

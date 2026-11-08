@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Registro de Estudiantes</string>
+
+<!-- ================= Pantalla 1: Registro ================= -->
+<string name="titulo_registro">Registro de Estudiantes</string>
+<string name="subtitulo_registro">Complete el formulario con sus datos</string>
+
+<!-- Nombre -->
+<string name="label_nombre">Nombre Completo</string>
+<string name="hint_nombre">Ej. Juan Pérez</string>
+
+<!-- Carreras -->
+<string name="label_carrera">Seleccione su Carrera</string>
+<string name="rb_ti">Tecnologías de la Información</string>
+<string name="rb_admin">Administración de Empresas</string>
+<string name="rb_conta">Contabilidad y Auditoría</string>
+
+<!-- Modalidad (CheckBox) -->
+<string name="cb_virtual">Estudia en modalidad virtual</string>
+
+<!-- Botón -->
+<string name="btn_registrar">REGISTRAR ESTUDIANTE</string>
+
+<!-- ================= Pantalla 2: Resumen ================= -->
+<string name="titulo_resumen">Resumen del registro</string>
+<string name="subtitulo_resumen">Datos del estudiante registrado</string>
+<string name="etiqueta_nombre">Nombre del estudiante:</string>
+<string name="etiqueta_carrera">Carrera seleccionada:</string>
+<string name="etiqueta_modalidad">Modalidad de estudio:</string>
+<string name="dato_no_disponible">No disponible</string>
+
+<!-- ================= Validaciones (Toast) ================= -->
+<string name="error_nombre_vacio">Ingrese el nombre del estudiante</string>
+<string name="error_carrera_vacia">Seleccione una carrera</string>
+
+<!-- ================= Valores de modalidad ================= -->
+<string name="modalidad_virtual">Virtual</string>
+<string name="modalidad_presencial">Presencial</string>
+
+</resources>
